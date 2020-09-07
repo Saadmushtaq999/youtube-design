@@ -1,10 +1,10 @@
- body{
+body{
                 background-color: #F9F9F9;
                 margin:0;
                 padding: 0;
                 border: 0;
                 display: grid;
-               
+                  
             }
             a{
                 display:inline-block; 
@@ -12,7 +12,7 @@
                 text-align: center;
             }
             .nav1{
-                
+               
                 position: fixed;
                 background-color: #FFFFFF;
                 list-style: none;
@@ -117,7 +117,7 @@
             
             /*nav2*/
             .nav2{
-                
+                overflow-y: scroll;
                 display: flex;
                 z-index: 2;
                 background-color: #FFFFFF;
@@ -160,7 +160,9 @@
                 color: black;
                 background-color: #FFFFFF;
             }
-            
+            #lie:hover{
+                background-color: #E5E5E5;
+            }
             /******************************/
             #img123{
                 border-radius: 50%;
@@ -174,9 +176,134 @@
                 
                 
             }
-            .sc{
-                display:grid;
-                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            .cont2{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont3{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont4{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont5{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont6{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont7{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont8{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont9{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont10{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont11{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
+                
+            }
+            .cont12{
+                display: block;
+                padding: 10px;
+                margin: 10px;
+                width: 253px;
+                height:inherit;
+                
                 
             }
             
+        
+            .gridClass{
+                padding-top: 70px;
+                display: grid;
+                grid-template-columns: 260px 260px 260px 260px;
+                grid-template-rows: 300px 300px 300px 300px;
+                grid-row-gap: 1px;
+                grid-column-gap: 1px;
+            }
+            .sc{
+                display: flex;
+                
+            }
+            @media(max-width:768px)
+            {
+                .nav2{
+                    display: none;
+                }
+                .gridClass{
+                    
+                     display:flex;
+                    flex-direction: column; 
+                }
+                
+                #search{
+                    display: none; 
+                }
+                .nav1{
+                    flex-shrink: 5;
+                }
+            }
