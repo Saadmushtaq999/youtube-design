@@ -179,7 +179,4 @@
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
                 
             }
-            .gridClass{
-                grid-template-columns: inherit;
-                height:300px;
-            }
+            
